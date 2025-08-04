@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+.Parentbox {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 80px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Foto {
+  float: left;
+  width: 31%;
+  height: 450px;
+  background: rgb(241, 241, 241);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Foto img {
+  width: 300px;
+  height: 450px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Deskripsi {
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+}
+
+.Deskripsi .Info {
+  line-height: 1.8;
+  color: black;
+}
+
+.Deskripsi .Price {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Deskripsi .Title {
+  margin: 0;
+}
+
+.Deskripsi .Cate {
+  color: rgb(192, 192, 192);
+}
+
+.Addcart {
+  margin-top: 20px;
   color: white;
+  font-weight: 500;
+  background: rgb(255, 35, 72);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: all 0.8s;
+
 }
 
-.App-link {
-  color: #61dafb;
+.Addcart :hover {
+  color: white;
+  background: rgb(255, 204, 204);
+  transition: all 0.8s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Review-box {
+  clear: both;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.Review-box h2{
+  margin-top: 50px;
+}
+
+.Review-box img{
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 11px;
+  float: left;
+  margin-right: 16px;
+}
+
+.Review-box .User p, h3{
+  margin: 0;
+}
+
+.Review-box .User h3{
+  padding-top: 10px;
+  margin-bottom: 8px;
+}
+
+.Review-box .Item{
+  width: 80%;
+  overflow: hidden;
+  margin-bottom: 24px;
 }
