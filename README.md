@@ -21,5 +21,8 @@ This project focuses on clean component structure, aesthetic styling, and a retr
 - Applying styling to support a brand identity
 - Supporting real business needs through small, focused builds
 
+🔗 Live Demo
+https://nailbyhilda-ui.netlify.app/
+
 💼 About the Project
 This project was created as a frontend showcase to support a small business (nailby.hilda) while practicing modular UI design using ReactJS.
